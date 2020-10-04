@@ -1,0 +1,56 @@
+
+	.body{
+
+		width:900px;
+		height:900px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.box{
+		position: relative;z-index: 2;
+		width: 100px;
+		height: 100px;
+		background-color: white;
+		animation:doyun;
+		animation-duration: 2s;
+		animation-fill-mode: forwards;
+		animation-play-state: paused;
+		transition-property: all;
+		transition-duration: 1s;
+		transform: scale(1, 1);
+		float: left;
+		
+		
+		}
+
+		.box:hover {
+			transform:rotate(180deg);
+			transform: scale(0, 0);
+			animation-play-state: running;
+		
+		}
+
+		.A{position: absolute;z-index: 1;
+			margin-left: 30px;
+			position: 
+
+		}
+
+		.name{
+			text-align: center;
+			text-decoration-color: black;
+			font-size: 40px;
+
+		}
+
+		@keyframes doyun {
+
+			0%{
+				opacity: 1
+			}
+			100%{
+				opacity: 0
+			}
+		}
